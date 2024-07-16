@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  background-color: #262626;
+}
+
+.main-section {
+  height: 400px;
+  background-image: url("/public/gw2exp.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.video {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.section-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  text-align: start;
+}
+
+.section-div h1 {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  margin-left: 20px;
+  color: #ffffff;
+  width: 250px;
+  border-radius: 25px;
+  background-color: red;
+}
+
+.section-div h2 {
+  font-weight: 400;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
