@@ -1,0 +1,1 @@
+# projeto-guild-wars2
